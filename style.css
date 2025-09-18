@@ -1,0 +1,228 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-color : black;
+}
+
+.img1 {
+  position: relative;
+  background: url("home_bg.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+
+.form-select {
+  color: white;
+  background: transparent;
+  border: 1px solid #fff;
+}
+.form-select option {
+  color: black; 
+}
+
+#bttn {
+  background-color: #e50914;
+  border: none;
+  padding: 6px 16px;
+  color: white;
+  font-weight: 500;
+  
+}
+#bttn:hover {
+  background: #b0060f;
+}
+
+
+.email-fo1 {
+  background: rgba(0, 0, 0, 0.6);
+  width: 400px;
+  max-width: 400px;
+  height: 55px;
+  color: white;
+}
+::placeholder {
+  color: #fff !important;
+
+}
+.email-fo1:focus{
+  background: rgba(0, 0, 0, 0.8);
+  border-color: #e50914;
+  color: white;
+  
+}
+
+
+#bttn2 {
+  background-color: #e50914;
+  border: none;
+  width: 100%;
+  max-width: 220px;
+  height: 55px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+#bttn2:hover {
+  background: #b0060f;
+}
+
+
+
+.movie-poster {
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+
+.trending {
+  padding: 40px 0 15px 0;
+  position: relative;
+  width: 100%;
+  color: white;
+}
+
+
+
+.more{
+  font-size: 25px;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+.reasons {
+  margin-top: 32px;
+  margin-bottom: 45px;
+}
+
+.reasoncard {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+  border-radius: 18px;
+  color: white;
+  padding: 24px;
+  align-items: flex-start;
+  position: relative;
+}
+
+
+.reasoncard p {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+  flex: 1;
+  text-align: left;
+  color: rgb(189, 185, 185);
+}
+
+.reasoncard img.reason-icon {
+  margin-top: auto;
+  align-items: flex-end;
+  display: block;
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  transition: transform 0.3s ease;
+}
+
+h4{
+    color: white;
+}
+.accordion-button{
+    background-color: rgb(58, 55, 55);
+    color: white;
+    height: 70px;
+    font-size: 30px;
+}
+
+.accordion-collapse{
+    background-color: rgb(58, 55, 55);
+    color: white;
+    font-size: 30px;
+
+}
+.accordion-item {
+    border: none;
+}
+
+
+.accordion-button:focus{
+ 
+  color: white;
+  box-shadow:none;
+  background-color: rgb(58, 55, 55);
+
+}
+.accordion-button:hover{
+   background-color: rgb(77, 74, 74);
+}
+
+.ready{
+    font-size: 20px;
+}
+.email-fo2{
+  background: transparent;
+  height: 70px;
+  width: 600px;
+  
+}
+.email-fo2:focus{
+  background: rgba(37, 37, 37, 0.8);
+  border-color: white;
+  color: white;
+  
+}
+
+
+#bttn3{
+   background-color: #e50914;
+  border: none;
+  width: 300px;
+  max-width: 300px;
+  height: 70px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+#bttn3:hover {
+  background: #b0060f;
+}
+.pointer1{
+  
+  cursor: pointer;
+}
+.faq{
+  color: rgb(202, 197, 197);
+  
+}
+.form-select1{
+  background:transparent ;
+  color: white;
+  width: 100px;
+  height: 40px;
+}
+
+
+
+.this{
+  font-size: 13px;
+  
+}
+
+.get{
+  font-size: 32px;
+}
+
